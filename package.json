@@ -1,0 +1,17 @@
+{
+  "name": "floofy-resource-pack",
+  "version": "1.0.0",
+  "description": "Floofy name-tag wolf texture pack for Minecraft Java 26.1",
+  "scripts": {
+    "build": "node scripts/build.mjs && python3 scripts/package.py",
+    "preview": "python3 -m http.server 8080 --bind 127.0.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "commonjs",
+  "dependencies": {
+    "sharp": "^0.35.4",
+    "three": "^0.185.1"
+  },
+  "private": true
+}

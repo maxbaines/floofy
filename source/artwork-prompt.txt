@@ -1,0 +1,12 @@
+Use case: style-transfer. Asset type: production Minecraft Java adult wolf UV texture atlas, NOT a picture of a dog.
+Image 1 is the exact adult wolf UV atlas edit target (1024x512; logical grid 64x32). Image 2 is the subject reference, a black / warm brown / cream IKEA Bernese mountain dog plush named Floofy.
+Repaint the atlas from Image 1 into Floofy. Preserve the exact canvas 2:1 aspect, exact UV island coordinates, silhouettes, empty areas, and positions of all facial features. Do NOT draw a dog silhouette, a 3D dog, text, labels, borders, grid, or a preview. Output only the flat texture atlas, filling the entire canvas.
+Coordinates below are logical pixels out of 64x32 (multiply by 16 in the 1024x512 image).
+Head cube: x0..20 y0..10. Main front face is x4..10 y4..10: black fur, centered ivory forehead blaze x6..8, brown eyebrow spots above glossy dark brown eyes at left/right, warm brown cheeks at the bottom sides. Head top x4..10 y0..4: mostly black with ivory central stripe. Sides of head stay black at top, chestnut lower cheeks.
+Muzzle net x0..14 y10..17: ivory / warm cream all around; front of muzzle x4..7 y14..17 has a black nose across its upper middle, small smiling mouth and tiny red-orange tongue detail below nose. Preserve exact muzzle-net arrangement.
+Ears net x16..22 y14..17: dark black-brown plush, tiny brown inner-ear detail.
+Chest/ruff net at x21..51 y0..13: black outer fur, an ivory bib across front/top island x28..36 y0..7 and ivory underside x43..51 y7..13, brown accents where bib meets black.
+Body net x18..42 y14..29: charcoal-black back and sides, cream belly on x36..42 y20..29, brown lower side edges; body top cap x24..30 y14..20 stays black.
+Legs net x0..8 y18..28: upper half black, lower half and paws chestnut caramel like the photo, tan paw sole. All four legs share this island.
+Tail net x9..17 y18..28: black.
+Style: clean carefully aligned pixel art, limited natural plush-fur palette, small subtle mottled pixel clusters, no gradients, no painted lighting, no cast shadows, no outlines around UV islands. Render at 4x logical resolution if helpful for small eye/tongue details while preserving all UV positions. Unused atlas space solid dark charcoal. The actual supplied reference dog must guide the markings and colors.
